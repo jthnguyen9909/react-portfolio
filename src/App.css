@@ -1,0 +1,149 @@
+* {
+  font-size: 1.2rem;
+  color:white;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #6F90AF;
+}
+
+main {
+  background-color: rgb(45, 49, 66);
+  margin-bottom: 0px;
+}
+
+.header {
+  background-color: rgb(1, 22, 56);
+}
+
+.navbar-text {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar-link {
+  color: white;
+}
+footer {
+  background-color: rgb(1, 22, 56);
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+}
+
+.divider {
+  background-image: url("../src/assets/wall/stormtrooper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 100vw;
+
+  /* border-top: rgb(202, 247, 226) solid 5px;
+  border-bottom: rgb(202, 247, 226) solid 5px; */
+  border-top: rgb(77, 77, 77) solid 5px;
+  border-bottom: rgb(77, 77, 77) solid 5px;
+}
+
+/* .navbar-text-section {
+  margin-left: 1200px;
+} */
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 3% 0;
+}
+
+.project {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  /* margin: 2%; */
+}
+
+.project-bg {
+  position: relative;
+  object-fit: center;
+  width: 500px;
+  height: 300px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border: 5px rgb(77, 77, 77) solid;
+}
+
+/* .project-text {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 50px;
+    z-index: 900;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+} */
+
+.about-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 0;
+  /* background-color:rgb(77, 77, 77) */
+}
+
+.about-me {
+  width: 30%;
+}
+
+.about-text p {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  width: 80%;
+  padding: 5px 5%;
+  background-color: #84A7BA;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.about-text h3 {
+  color: black;
+}
+
+.proficiencies {
+  width: 30%;
+}
+
+.skills {
+  background-color: #84A7BA;
+
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.skills li {
+  /* background-color: rgb(77, 77, 77); */
+  padding: 2px 5%;
+
+  /* display: flex; */
+  color: white;
+}
