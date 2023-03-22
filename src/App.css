@@ -1,15 +1,19 @@
 * {
   font-size: 1.2rem;
-  color:white;
+  color: white;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
   height: 100%;
   width: 100%;
-  background-color: #6F90AF;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(199, 232, 243);
+}
+
+body {
+  overflow-x: hidden;
 }
 
 main {
@@ -18,7 +22,7 @@ main {
 }
 
 .header {
-  background-color: rgb(1, 22, 56);
+  background-color: rgb(199, 232, 243);
 }
 
 .navbar-text {
@@ -30,9 +34,9 @@ main {
   color: white;
 }
 footer {
-  background-color: rgb(1, 22, 56);
+  background-color: rgb(199, 232, 243);
   position: absolute;
-  bottom: 0px;
+  /* bottom: 0px; */
   width: 100vw;
 }
 
@@ -46,8 +50,8 @@ footer {
 
   /* border-top: rgb(202, 247, 226) solid 5px;
   border-bottom: rgb(202, 247, 226) solid 5px; */
-  border-top: rgb(77, 77, 77) solid 5px;
-  border-bottom: rgb(77, 77, 77) solid 5px;
+  border-top: rgb(26, 26, 26) solid 3px;
+  /* border-bottom: rgb(26, 26, 26) solid 2px; */
 }
 
 /* .navbar-text-section {
@@ -61,77 +65,96 @@ footer {
   margin: 3% 0;
 }
 
-.project {
-  position: relative;
+h2 {
   text-align: center;
-  width: 100%;
-  max-width: 500px;
-  height: 300px;
-  /* margin: 2%; */
+  margin: 10px;
+  font-size: 2.5rem;
 }
-
-.project-bg {
-  position: relative;
-  object-fit: center;
-  width: 500px;
-  height: 300px;
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border: 5px rgb(77, 77, 77) solid;
-}
-
-/* .project-text {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    padding: 50px;
-    z-index: 900;
-    opacity: 0;
-    transition: all .5s ease-in-out;
-} */
 
 .about-text {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin: 3% 0;
   /* background-color:rgb(77, 77, 77) */
 }
-
-.about-me {
-  width: 30%;
-}
-
 .about-text p {
   text-align: center;
-  color: white;
-  font-size: 1.2rem;
-  width: 80%;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  width: 100%;
   padding: 5px 5%;
-  background-color: #84A7BA;
+  background-color: rgb(26, 26, 26);
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
-
-.about-text h3 {
-  color: black;
+.about-me {
+  width: 50%;
 }
+.pfp {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border: rgb(26, 26, 26) solid 1px;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* .about-text h3 {
+  color: rgb(255, 255, 255);
+} */
 
 .proficiencies {
   width: 30%;
 }
 
+.proficiencies-container {
+  background-color: rgb(26, 26, 26);
+  padding-bottom: 1px;
+  padding-top: 10px;
+}
+
+.prof-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3% 0;
+}
+.prof-text p {
+  text-align: center;
+  color: rgb(117, 117, 117);
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 5px 5%;
+  /* background-color: rgb(26, 26, 26); */
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.prof-summary {
+  width: 80%;
+  background-color: rgb(199, 232, 243);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
 .skills {
-  background-color: #84A7BA;
+  background-color: rgb(199, 232, 243);
 
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -145,5 +168,51 @@ footer {
   padding: 2px 5%;
 
   /* display: flex; */
+  color: rgb(117, 117, 117);
+}
+
+.email {
+  text-decoration: none;
+  transition: color 1s;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+}
+
+.email:hover {
+  text-decoration: none;
   color: white;
+}
+
+.icon-container {
+  display: flex;
+}
+
+.anim-icon {
+  border:0px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
+.bounce:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+}
+  100% {
+    transform: translateY(0);
+  }
 }

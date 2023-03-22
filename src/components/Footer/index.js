@@ -5,17 +5,17 @@ function Footer() {
     <footer class="text-center">
       <div class="container p-4">
         <section class="mb-4">
-          <a
+          {/* <a
             class="btn btn-primary btn-floating m-1"
             style={{ "background-color": "#3b5998" }}
             href="https://www.facebook.com/johnathan.nguyen.94/"
             role="button"
           >
             <FontAwesomeIcon icon={["fab", "facebook"]} />
-          </a>
+          </a> */}
 
           <a
-            class="btn btn-primary btn-floating m-1"
+            class="btn btn-primary btn-floating m-1 anim-icon bounce"
             style={{ "background-color": "#55acee" }}
             href="https://twitter.com/jthnguyen9909"
             role="button"
@@ -25,7 +25,7 @@ function Footer() {
           </a>
 
           <a
-            class="btn btn-primary btn-floating m-1"
+            class="btn btn-primary btn-floating m-1 anim-icon bounce"
             style={{ "background-color": "#dd4b39" }}
             href="mailto:jthnguyen9909.work@gmail.com"
             role="button"
@@ -33,17 +33,17 @@ function Footer() {
             <FontAwesomeIcon icon={["fab", "google"]} />
           </a>
 
-          <a
+          {/* <a
             class="btn btn-primary btn-floating m-1"
             style={{ "background-color": "#ac2bac" }}
             href="https://www.instagram.com/flabberdog/"
             role="button"
           >
             <FontAwesomeIcon icon={["fab", "instagram"]} />
-          </a>
+          </a> */}
 
           <a
-            class="btn btn-primary btn-floating m-1"
+            class="btn btn-primary btn-floating m-1 anim-icon bounce"
             style={{ "background-color": "#0082ca" }}
             href="https://www.linkedin.com/in/jthnguyen9909/"
             role="button"
@@ -51,7 +51,7 @@ function Footer() {
             <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
           </a>
           <a
-            class="btn btn-primary btn-floating m-1"
+            class="btn btn-primary btn-floating m-1 anim-icon bounce"
             style={{ "background-color": "#333333" }}
             href="https://github.com/jthnguyen9909"
             role="button"
@@ -61,7 +61,13 @@ function Footer() {
         </section>
 
         <section class="mb-4">
-          <p>Feel free to reach out and connect with me on my socials!</p>
+          <p>
+            Feel free to reach out and connect with me on my socials or email me
+            at:
+          </p>
+          <a className="email" href="mailto:jthnguyen9909.work.gmail.com">
+            jthnguyen9909.work@gmail.com
+          </a>
         </section>
       </div>
     </footer>
