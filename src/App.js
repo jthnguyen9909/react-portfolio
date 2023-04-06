@@ -5,6 +5,7 @@ import ResponsiveAppBar from "./components/Header";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
+import Resume from "./components/Resume";
 import AboutMe from "./components/Me";
 import Proficiencies from "./components/Proficiencies";
 import Portfolio from "./components/Portfolio";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/*" element={<Home />} /> */}
         </Routes>
+        <Resume />
         <AboutMe />
         <Proficiencies />
         <Portfolio />

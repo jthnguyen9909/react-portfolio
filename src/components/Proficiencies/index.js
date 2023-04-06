@@ -1,28 +1,29 @@
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css";
+
 function Proficiencies() {
   return (
     <div className="proficiencies-container">
       <h2>Proficiencies</h2>
       <div className="prof-text">
         <section className="proficiencies">
-          <h3>Front-end Proficiencies</h3>
           <ul className="skills">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Responsive Design</li>
-            <li>React</li>
-            <li>Bootstrap</li>
-          </ul>
-          <h3>Back-end Proficiencies</h3>
-          <ul className="skills">
-            <li>APIs</li>
-            <li>Node</li>
-            <li>Express</li>
-            <li>MySQL, Sequelize</li>
-            <li>MongoDB, Mongoose</li>
-            <li>REST</li>
-            <li>GraphQL</li>
+            <AnimationOnScroll
+              animateIn="animate__fadeInLeftBig"
+              animateOnce="true"
+              duration="3"
+            >
+              <i className="logo html-logo anim-icon bounce"></i>
+              <i className="logo css-logo anim-icon bounce"></i>
+              <i className="logo js-logo anim-icon bounce"></i>
+              <i className="logo git-logo anim-icon bounce"></i>
+              <i className="logo node-logo anim-icon bounce"></i>
+              <i className="logo jquery-logo anim-icon bounce"></i>
+              <i className="logo sql-logo anim-icon bounce"></i>
+              <i className="logo sequelize-logo anim-icon bounce"></i>
+              <i className="logo mongo-logo anim-icon bounce"></i>
+              <i className="logo react-logo anim-icon bounce"></i>
+            </AnimationOnScroll>
           </ul>
         </section>
         <section className="prof-summary">

@@ -1,7 +1,10 @@
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css";
+
 function AboutMe() {
   return (
     <>
-      <h2>About Me</h2>
+      <h2 className="about-me-h2">About Me</h2>
       <div className="about-text">
         <div className="profile-pic">
           <img
@@ -10,17 +13,25 @@ function AboutMe() {
             alt="profile"
           ></img>
         </div>
+
         <section className="about-me">
-          <p>
-            Hello there! I'm Johnathan Nguyen, and I'm hoping to further my
-            career as a full-stack developer. I studied at and completed UC
-            Irvine's Coding Bootcamp, and am currently improving my skills.
-          </p>
-          <p>
-            Outside of programming, I enjoy playing video games and have an
-            interest video game development and new technologies. I also enjoy
-            playing tennis recreationally.
-          </p>
+          {" "}
+          <AnimationOnScroll
+            animateIn="animate__fadeInRightBig"
+            animateOnce="true"
+          >
+            <p>
+              I'm a Full Stack Developer looking to improve my knowledge and
+              experience after graduating from University of California Irvine's
+              Coding Bootcamp. I hope to invest myself in this constantly
+              evolving industry and look forward to connecting with you!
+            </p>
+            <p>
+              Outside of programming, I enjoy playing video games and thus have
+              an interest video game development. I also enjoy playing tennis
+              recreationally!
+            </p>
+          </AnimationOnScroll>
         </section>
       </div>
     </>

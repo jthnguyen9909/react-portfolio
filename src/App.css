@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
 * {
   font-size: 1.2rem;
   color: white;
@@ -17,7 +19,7 @@ body {
 }
 
 main {
-  background-color: rgb(45, 49, 66);
+  /* background-color: rgb(45, 49, 66); */
   margin-bottom: 0px;
 }
 
@@ -34,7 +36,7 @@ main {
   color: white;
 }
 footer {
-  background-color: rgb(199, 232, 243);
+  background-color: rgb(26, 26, 26);
   position: absolute;
   /* bottom: 0px; */
   width: 100vw;
@@ -42,16 +44,13 @@ footer {
 
 .divider {
   background-image: url("../src/assets/wall/stormtrooper.jpg");
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
+  background-position: 50% 30%;
+  height: 550px;
   width: 100vw;
-
-  /* border-top: rgb(202, 247, 226) solid 5px;
-  border-bottom: rgb(202, 247, 226) solid 5px; */
-  border-top: rgb(26, 26, 26) solid 3px;
-  /* border-bottom: rgb(26, 26, 26) solid 2px; */
+  /* border-top: rgb(26, 26, 26) solid 1px; */
+  margin-bottom: 0;
 }
 
 /* .navbar-text-section {
@@ -69,6 +68,41 @@ h2 {
   text-align: center;
   margin: 10px;
   font-size: 2.5rem;
+  font-weight: bolder;
+  padding-top: 3%;
+}
+
+.resume-container {
+  background-color: rgb(26, 26, 26);
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.resume-container h4 {
+  font-size: 2.5rem;
+  margin: 3%;
+}
+.resume-container h3 {
+  font-size: 4rem;
+}
+h5 {
+  font-size: 2.0rem;
+  margin:0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+.about-me-h2 {
+  color: rgb(26, 26, 26);
+  padding-top: 3%;
+}
+.projects-h2 {
+  color: rgb(26, 26, 26);
+  padding-top: 3%;
 }
 
 .about-text {
@@ -81,11 +115,11 @@ h2 {
 }
 .about-text p {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(26, 26, 26);
   font-size: 1.5rem;
   width: 100%;
   padding: 5px 5%;
-  background-color: rgb(26, 26, 26);
+  /* background-color: rgb(26, 26, 26); */
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -93,7 +127,8 @@ h2 {
   -o-border-radius: 6px;
 }
 .about-me {
-  width: 50%;
+  width: 70%;
+  min-width: 300px;
 }
 .pfp {
   width: 400px;
@@ -113,12 +148,12 @@ h2 {
 } */
 
 .proficiencies {
-  width: 30%;
+  width: 80%;
 }
 
 .proficiencies-container {
   background-color: rgb(26, 26, 26);
-  padding-bottom: 1px;
+  padding-bottom: 5%;
   padding-top: 10px;
 }
 
@@ -131,7 +166,7 @@ h2 {
 }
 .prof-text p {
   text-align: center;
-  color: rgb(117, 117, 117);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   width: 100%;
   padding: 5px 5%;
@@ -145,17 +180,19 @@ h2 {
 
 .prof-summary {
   width: 80%;
-  background-color: rgb(199, 232, 243);
-  border-radius: 10px;
+  margin-top: 5%;
+  /* background-color: rgb(199, 232, 243); */
+  /* border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  -o-border-radius: 10px; */
 }
 
 .skills {
-  background-color: rgb(199, 232, 243);
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -163,12 +200,40 @@ h2 {
   -o-border-radius: 6px;
 }
 
-.skills li {
-  /* background-color: rgb(77, 77, 77); */
-  padding: 2px 5%;
-
-  /* display: flex; */
-  color: rgb(117, 117, 117);
+.logo {
+  width: auto;
+  height: 75px;
+  margin: 0 5px;
+}
+.html-logo {
+  content: url("./assets/logos/html-logo.svg");
+}
+.css-logo {
+  content: url("./assets/logos/css-logo.svg");
+}
+.js-logo {
+  content: url("./assets/logos/js-logo.png");
+}
+.node-logo {
+  content: url("./assets/logos/nodejs-logo.svg");
+}
+.jquery-logo {
+  content: url("./assets/logos/jquery-logo.png");
+}
+.sql-logo {
+  content: url("./assets/logos/mysql-logo.png");
+}
+.sequelize-logo {
+  content: url("./assets/logos/sequelize-logo.svg");
+}
+.mongo-logo {
+  content: url("./assets/logos/mongodb-logo.png");
+}
+.react-logo {
+  content: url("./assets/logos/react-logo.svg");
+}
+.git-logo {
+  content: url("./assets/logos/git-logo.png");
 }
 
 .email {
@@ -185,12 +250,44 @@ h2 {
   color: white;
 }
 
+.slide1 {
+  animation: slide 5s forwards;
+  -webkit-animation: slide 5s forwards;
+}
+.slide2 {
+  animation: slide 2s forwards;
+  -webkit-animation: slide 2s forwards;
+}
+.slide3 {
+  animation: slide 3s forwards;
+  -webkit-animation: slide 3s forwards;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+    -webkit-transform: translateX(-200px);
+    -moz-transform: translateX(-200px);
+    -ms-transform: translateX(-200px);
+    -o-transform: translateX(-200px);
+}
+  100% {
+    opacity:1;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+
 .icon-container {
   display: flex;
 }
 
 .anim-icon {
-  border:0px;
+  border: 0px;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   transform-origin: bottom;
@@ -211,7 +308,7 @@ h2 {
     -moz-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     -o-transform: translateY(-5px);
-}
+  }
   100% {
     transform: translateY(0);
   }

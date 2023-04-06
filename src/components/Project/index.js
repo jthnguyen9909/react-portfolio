@@ -10,7 +10,14 @@ function Project({ project }) {
   const { name, title, repo, link, description } = project;
 
   return (
-    <Card sx={{ maxWidth: 600, backgroundColor: "rgb(26, 26, 26)" }}>
+    <Card
+      sx={{
+        maxWidth: 600,
+        backgroundColor: "rgb(26, 26, 26)",
+        border: "rgb(26, 26, 26) 2px solid",
+        mb: "15px",
+      }}
+    >
       <CardMedia
         component="img"
         alt={name}

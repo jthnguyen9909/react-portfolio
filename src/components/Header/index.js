@@ -17,7 +17,7 @@ const pages = ["About Me", "Portfolio", "Contact Me"];
 
 function ResponsiveAppBar() {
   return (
-    <AppBar position="static" sx={{ backgroundColor: "rgb(199, 232, 243)" }}>
+    <AppBar position="static" sx={{ backgroundColor: "rgb(26, 26, 26)" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -27,9 +27,10 @@ function ResponsiveAppBar() {
             href="/"
             sx={{
               fontSize: "2rem",
-              mr: 2,
+              mr: "60%",
+              pl: "5px",
               display: { xs: "flex", md: "flex" },
-              fontFamily: "monospace",
+              fontFamily: "Satisfy, cursive",
               fontWeight: 700,
               letterSpacing: ".3rem",
               color: "inherit",

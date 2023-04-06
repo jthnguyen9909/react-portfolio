@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Project from "../Project";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css";
 
 function Portfolio() {
   // Replace links with deployed projects and GitHub repos
@@ -32,10 +34,15 @@ function Portfolio() {
 
   return (
     <div>
-      <h3>Projects</h3>
+      <h2 className="projects-h2">Projects</h2>
       <div className="flex-row">
         {projects.map((project, idx) => (
-          <Project project={project} key={"project" + idx} />
+          <AnimationOnScroll
+            animateIn="animate__fadeInRightBig"
+            animateOnce="true"
+          >
+            <Project project={project} key={"project" + idx} />
+          </AnimationOnScroll>
         ))}
       </div>
     </div>
