@@ -11,11 +11,13 @@ function Project({ project }) {
 
   return (
     <Card
+      className="float"
       sx={{
-        maxWidth: 600,
+        maxWidth: 700,
         backgroundColor: "rgb(26, 26, 26)",
         border: "rgb(26, 26, 26) 2px solid",
-        mb: "15px",
+        mb: "20px",
+        boxShadow: "5px 10px 10px grey",
       }}
     >
       <CardMedia

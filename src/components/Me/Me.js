@@ -4,7 +4,9 @@ import "animate.css";
 function AboutMe() {
   return (
     <>
-      <h2 className="about-me-h2">About Me</h2>
+      <h2 id="about-section" className="about-me-h2">
+        About Me
+      </h2>
       <div className="about-text">
         <div className="profile-pic">
           <img

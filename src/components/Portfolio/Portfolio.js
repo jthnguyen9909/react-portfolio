@@ -7,6 +7,14 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
+      name: "communitea",
+      title: "CommuniTEA",
+      description:
+        "Social Media App for boba enthusiasts to search and review boba stores. Features user accounts and favorite functionality. Built using React, MongoDB and Yelp API.",
+      link: "https://tranquil-plains-63846.herokuapp.com/",
+      repo: "https://github.com/UCI-team-project/communiTEA",
+    },
+    {
       name: "pokemon-battle-simulator",
       title: "Pokemon Fusion Battle Simulator",
       description:
@@ -18,7 +26,7 @@ function Portfolio() {
       name: "team-profile",
       title: "Team Profile Generator",
       description:
-        "A fairly barebones application built using test driven development for a user to easily generate a webpage that displays and formats information inputted about a team.",
+        "A barebones application built using test driven development for a user to easily generate a webpage that displays and formats information inputted about a team.",
       link: "https://github.com/jthnguyen9909/team-profile-generator",
       repo: "https://github.com/jthnguyen9909/team-profile-generator",
     },
@@ -34,7 +42,9 @@ function Portfolio() {
 
   return (
     <div>
-      <h2 className="projects-h2">Projects</h2>
+      <h2 id="projects-section" className="projects-h2">
+        Projects
+      </h2>
       <div className="flex-row">
         {projects.map((project, idx) => (
           <AnimationOnScroll

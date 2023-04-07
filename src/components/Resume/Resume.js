@@ -70,6 +70,8 @@ function Resume() {
             className="resume-btn"
             color="neutral"
             variant="contained"
+            href="./fullstack-resume-johnathannguyen.pdf"
+            download
           >
             DOWNLOAD MY RESUME
           </Button>
@@ -78,6 +80,7 @@ function Resume() {
             className="resume-btn"
             color="neutral"
             variant="contained"
+            href="mailto:jthnguyen9909.work@gmail.com"
           >
             CONTACT ME
           </Button>

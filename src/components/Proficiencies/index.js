@@ -3,7 +3,7 @@ import "animate.css";
 
 function Proficiencies() {
   return (
-    <div className="proficiencies-container">
+    <div id="prof-section" className="proficiencies-container">
       <h2>Proficiencies</h2>
       <div className="prof-text">
         <section className="proficiencies">
