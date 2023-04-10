@@ -23,12 +23,28 @@ function Portfolio() {
       repo: "https://github.com/wangbrian26/Pokemon-Fusion-Battle-Simulator",
     },
     {
+      name: "social-network",
+      title: "Social Network Backend API",
+      description:
+        "This is an API for the backend of a social network application for users to share thoughts, react, and add friends. Built using Express.js for routing and a MongoDB database.",
+      link: "https://github.com/jthnguyen9909/social-network-api",
+      repo: "https://github.com/jthnguyen9909/social-network-api",
+    },
+    {
       name: "team-profile",
       title: "Team Profile Generator",
       description:
         "A barebones application built using test driven development for a user to easily generate a webpage that displays and formats information inputted about a team.",
       link: "https://github.com/jthnguyen9909/team-profile-generator",
       repo: "https://github.com/jthnguyen9909/team-profile-generator",
+    },
+    {
+      name: "google-books",
+      title: "Google Books Search Engine",
+      description:
+        "Search engine application using the Google Books API with user authentication and encryption. Built using React, MongoDB, Express.js, and Google Books API.",
+      link: "https://agile-atoll-57616.herokuapp.com/",
+      repo: "https://github.com/jthnguyen9909/book-search-engine",
     },
     {
       name: "jate",
@@ -42,10 +58,10 @@ function Portfolio() {
 
   return (
     <div>
-      <h2 id="projects-section" className="projects-h2">
+      <h2 id="projects-section" className="projects-h2 scroll-section">
         Projects
       </h2>
-      <div className="flex-row">
+      <div className="flex-row" sx={{ display: "flex" }}>
         {projects.map((project, idx) => (
           <AnimationOnScroll
             animateIn="animate__fadeInRightBig"

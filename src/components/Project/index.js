@@ -11,9 +11,10 @@ function Project({ project }) {
 
   return (
     <Card
-      className="float"
+      className="float project-card"
       sx={{
-        maxWidth: 700,
+        width: 900,
+        flexGrow: 1,
         backgroundColor: "rgb(26, 26, 26)",
         border: "rgb(26, 26, 26) 2px solid",
         mb: "20px",

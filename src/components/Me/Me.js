@@ -3,8 +3,8 @@ import "animate.css";
 
 function AboutMe() {
   return (
-    <>
-      <h2 id="about-section" className="about-me-h2">
+    <div>
+      <h2 id="about-section" className="about-me-h2 scroll-section">
         About Me
       </h2>
       <div className="about-text">
@@ -36,7 +36,7 @@ function AboutMe() {
           </AnimationOnScroll>
         </section>
       </div>
-    </>
+    </div>
   );
 }
 
