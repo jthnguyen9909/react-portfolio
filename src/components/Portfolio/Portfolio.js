@@ -18,7 +18,7 @@ function Portfolio() {
       name: "vacayte",
       title: "Vacayte Travel App",
       description:
-        "Travel Planning Application for users to plan their vacation with activities, events, and businesses utilizing the Yelp Fusion API",
+        "Travel Planning Application for users to plan their vacation itinerary with activities, events, and businesses utilizing the Yelp Fusion API.",
       link: "https://obscure-fjord-08413.herokuapp.com/",
       repo: "https://github.com/monysary/vacayte-travel-app",
     },
