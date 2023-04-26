@@ -15,6 +15,14 @@ function Portfolio() {
       repo: "https://github.com/UCI-team-project/communiTEA",
     },
     {
+      name: "vacayte",
+      title: "Vacayte Travel App",
+      description:
+        "Travel Planning Application for users to plan their vacation with activities, events, and businesses utilizing the Yelp Fusion API",
+      link: "https://obscure-fjord-08413.herokuapp.com/",
+      repo: "https://github.com/monysary/vacayte-travel-app",
+    },
+    {
       name: "pokemon-battle-simulator",
       title: "Pokemon Fusion Battle Simulator",
       description:
@@ -45,14 +53,6 @@ function Portfolio() {
         "Search engine application using the Google Books API with user authentication and encryption. Built using React, MongoDB, Express.js, and Google Books API.",
       link: "https://agile-atoll-57616.herokuapp.com/",
       repo: "https://github.com/jthnguyen9909/book-search-engine",
-    },
-    {
-      name: "jate",
-      title: "Just Another Text Editor",
-      description:
-        "Simple text editor application that is developed to run on any device and features data persistence.",
-      link: "https://hidden-harbor-60815.herokuapp.com/",
-      repo: "https://github.com/jthnguyen9909/text-editor-pwa",
     },
   ]);
 
