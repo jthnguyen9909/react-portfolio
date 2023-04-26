@@ -11,8 +11,8 @@ function Portfolio() {
       title: "CommuniTEA",
       description:
         "Social Media App for boba enthusiasts to search and review boba stores. Features user accounts and favorite functionality. Built using React, MongoDB and Yelp API.",
-      link: "https://tranquil-plains-63846.herokuapp.com/",
-      repo: "https://github.com/UCI-team-project/communiTEA",
+      link: "https://ancient-hollows-48293.herokuapp.com/",
+      repo: "https://github.com/jthnguyen9909/communitea",
     },
     {
       name: "vacayte",
