@@ -242,6 +242,9 @@ h3 {
 .git-logo {
   content: url("./assets/logos/git-logo.png");
 }
+.java-logo {
+  content: url("./assets/logos/java-logo.png");
+}
 
 .email {
   text-decoration: none;

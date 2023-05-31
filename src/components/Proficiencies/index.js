@@ -23,6 +23,7 @@ function Proficiencies() {
               <i className="logo sequelize-logo anim-icon bounce"></i>
               <i className="logo mongo-logo anim-icon bounce"></i>
               <i className="logo react-logo anim-icon bounce"></i>
+              <i className="logo java-logo anim-icon bounce"></i>
             </AnimationOnScroll>
           </ul>
         </section>
@@ -31,14 +32,14 @@ function Proficiencies() {
             <p>
               Strong foundation in building web applications utilizing both
               Front-End and Back-End technologies including HTML, CSS,
-              JavaScript, Node.js, Express.js, MySQL, MongoDB, and React.js
+              JavaScript,Node.js, Express.js, MySQL, MongoDB, and React.js
             </p>
             <p>
               Open-minded, quick to adapt, enjoy working in a team environment
             </p>
             <p>
-              Currently improving skills with React.js and also looking into
-              Next.js to keep up with modern programming technologies.
+              Currently developing my skills with Java and learning other
+              languages and technologies including C#, Python, and AWS
             </p>
           </div>
         </section>
