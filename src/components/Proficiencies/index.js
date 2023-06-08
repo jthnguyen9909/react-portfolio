@@ -16,6 +16,7 @@ function Proficiencies() {
               <i className="logo html-logo anim-icon bounce"></i>
               <i className="logo css-logo anim-icon bounce"></i>
               <i className="logo js-logo anim-icon bounce"></i>
+              <i className="logo csharp-logo anim-icon bounce"></i>
               <i className="logo git-logo anim-icon bounce"></i>
               <i className="logo node-logo anim-icon bounce"></i>
               <i className="logo jquery-logo anim-icon bounce"></i>
@@ -38,8 +39,8 @@ function Proficiencies() {
               Open-minded, quick to adapt, enjoy working in a team environment
             </p>
             <p>
-              Currently developing my skills with Java and learning other
-              languages and technologies including C#, Python, and AWS
+              Currently developing my skills with C# and looking into how to
+              develop games in Unity.
             </p>
           </div>
         </section>

@@ -221,6 +221,9 @@ h3 {
 .js-logo {
   content: url("./assets/logos/js-logo.png");
 }
+.csharp-logo {
+  content: url("./assets/logos/c-sharp.svg");
+}
 .node-logo {
   content: url("./assets/logos/nodejs-logo.svg");
 }
