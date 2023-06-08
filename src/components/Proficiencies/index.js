@@ -39,8 +39,8 @@ function Proficiencies() {
               Open-minded, quick to adapt, enjoy working in a team environment
             </p>
             <p>
-              Currently developing my skills with C# and looking into how to
-              develop games in Unity.
+              Currently developing my skills with C# and delving into how to
+              develop games in Unity
             </p>
           </div>
         </section>
