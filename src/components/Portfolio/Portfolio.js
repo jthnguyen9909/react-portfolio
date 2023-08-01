@@ -7,6 +7,14 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
+      name: "freechat",
+      title: "FreeChat",
+      description:
+        "This is a socket.io chatting web application that allows users to send and receive messages from others to communicate in real-time.",
+      link: "https://lit-dawn-31381-c68ed5d010dd.herokuapp.com/",
+      repo: "https://github.com/jthnguyen9909/freechat",
+    },
+    {
       name: "communitea",
       title: "CommuniTEA",
       description:
@@ -21,14 +29,6 @@ function Portfolio() {
         "Travel Planning Application for users to plan their vacation itinerary with activities, events, and businesses utilizing the Yelp Fusion API.",
       link: "https://obscure-fjord-08413.herokuapp.com/",
       repo: "https://github.com/monysary/vacayte-travel-app",
-    },
-    {
-      name: "pokemon-battle-simulator",
-      title: "Pokemon Fusion Battle Simulator",
-      description:
-        "This is my first group project built using html, css, vanilla javascript, and some simple API integration to create a game application similar to the popular series Pokemon.",
-      link: "https://wangbrian26.github.io/Pokemon-Fusion-Battle-Simulator/",
-      repo: "https://github.com/wangbrian26/Pokemon-Fusion-Battle-Simulator",
     },
     {
       name: "social-network",
