@@ -29,7 +29,7 @@ function Footer() {
           <a
             className="btn btn-primary btn-floating m-1 anim-icon bounce"
             style={{ backgroundColor: "#dd4b39" }}
-            href="mailto:jthnguyen9909.work@gmail.com"
+            href="mailto:jthnguyen.work@gmail.com"
             role="button"
           >
             <FontAwesomeIcon icon={["fab", "google"]} />
@@ -71,7 +71,7 @@ function Footer() {
             Feel free to reach out and connect with me on my socials or email me
             at:
           </p>
-          <a className="email" href="mailto:jthnguyen9909.work.gmail.com">
+          <a className="email" href="mailto:jthnguyen.work.gmail.com">
             jthnguyen9909.work@gmail.com
           </a>
         </section>
