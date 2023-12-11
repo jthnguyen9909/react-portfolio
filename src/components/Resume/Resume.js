@@ -37,7 +37,7 @@ function Resume() {
           className="btn btn-primary btn-floating m-1 anim-icon bounce"
           S
           style={{ backgroundColor: "#dd4b39" }}
-          href="mailto:jthnguyen9909.work@gmail.com"
+          href="mailto:jthnguyen.work@gmail.com"
           role="button"
         >
           <FontAwesomeIcon icon={["fab", "google"]} />
@@ -80,7 +80,7 @@ function Resume() {
             className="resume-btn"
             color="neutral"
             variant="contained"
-            href="mailto:jthnguyen9909.work@gmail.com"
+            href="mailto:jthnguyen.work@gmail.com"
           >
             CONTACT ME
           </Button>

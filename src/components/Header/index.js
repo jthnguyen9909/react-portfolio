@@ -69,7 +69,7 @@ export default function ResponsiveAppBar() {
           <Button
             className="anim-icon bounce sm-hide"
             sx={{ my: 2, mr: "5%", color: "white", display: "row" }}
-            href="mailto:jthnguyen9909.work@gmail.com"
+            href="mailto:jthnguyen.work@gmail.com"
           >
             <EmailIcon />
           </Button>
